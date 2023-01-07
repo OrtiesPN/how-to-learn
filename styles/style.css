@@ -239,6 +239,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed; /*v2 указал цвет для ссылки*/
 }
 /*выше позиционирование и стили для элементов блока feynman*/
 
@@ -325,7 +326,7 @@
   /*параметры текста*/
 }
 
-.footer__link{
+.footer__column-link{/*v2 исправил класс по брифу*/
   text-decoration: none;
   color: #f2f2f2;
 }
@@ -335,7 +336,7 @@
   text-decoration: none;
 }
 
-.footer_social-icon{
+.footer__social-icon{/*v2 исправил класс по брифу*/
   size: 16px 16px;
   padding-right: 10px; /*свойства для иконок соцсетей, добавленных через тег img*/
 }
