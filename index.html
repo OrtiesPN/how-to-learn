@@ -15,14 +15,14 @@
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
       <a class="header__link" href="#">Узнать &#8594;</a>
     </p>
-    <div class="header__main-illustration"></div><!--пустой контейнер для иллюстрации-->
+    <img src="./images/header-image.png" class="header__main-illustration" alt="Фрагмент картины «Опять двойка»"><!--поставил иллюстрацию соответствующим тегом-->
     <div class="header__square-pic"></div>
     </header>
     <!--Header задан в разметке одноименным тегом, логотип задан тегом img, а фрагмент изображения "опять двойка" в качестве фона в пустом контейнере. Заголовок 1 уровня повторяет название страницы -->
     <main class="content"><!--все содержимое страницы между шапкой и подвалом обернуто тегом main-->
       <section class="description section_margin-top">
         <div class="two-columns">
-          <h3 class="two-columns__brief">Главные проблемы в обучении</h3><!--выбрал уровень 3 для заголовка, а не 2 т.к. заголовок не явный и не выделен -->
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2><!--поменял тег на h2-->
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
               Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания.
@@ -83,7 +83,6 @@
       <!--выше разметка третьей секции-->
       <section class="kaufman">
         <div class="kaufman__triangle"></div><!--пустой контейнер для иллюстрации-->
-        <div class="kaufman_content"><!--обертка для контента в секции-->
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">От Джофа Кауфмана</p>
         <ul class="table table_theme_dark">
@@ -128,7 +127,6 @@
             <p class="table__text">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-      </div>
       </section>
       <!--выше разметка четвертой секции-->
     </main>
@@ -151,9 +149,9 @@
         <nav class="footer_column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
-            <li><a href="#" class="footer__link footer__yt-link">YouTube</a></li>
-            <li><a href="#" class="footer__link footer__vk-link">Вконтакте</a></li>
-            <li><a href="#" class="footer__link footer__tt-link">TikTok</a></li>
+            <li><a href="#" class="footer__link"><img src="./images/youtube-icon.svg" class="footer_social-icon">YouTube</a></li>
+            <li><a href="#" class="footer__link"><img src="./images/vk_color_white.svg" class="footer_social-icon">Вконтакте</a></li>
+            <li><a href="#" class="footer__link"><img src="./images/tiktok-icon.svg" class="footer_social-icon">TikTok</a></li><!--добавил иконки с помощью тега img -->
           </ul>
         </nav>
       </div>
