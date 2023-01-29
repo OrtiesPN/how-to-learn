@@ -1,0 +1,10 @@
+.footer{
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+  min-height: 350px;
+  padding: 60px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  /*установил минимальную высоту всему блоку footer как указано в брифе, для того чтобы контент внутри растянулся по всей высоте родителя добавил flex и направление по вертикали,
+   чтобы паддинг учитывался вместе с минимальной высотой установил box-sizing*/
+}

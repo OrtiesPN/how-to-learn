@@ -1,0 +1,9 @@
+@keyframes rotation{
+  to {
+    transform: rotate(360deg); /* ПР2: ключевые кадры для анимации */
+  }
+}
+
+.rotation{
+  animation: rotation 20s linear infinite; /* ПР2: селектор со свойствами анимации для микса */
+}

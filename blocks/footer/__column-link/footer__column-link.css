@@ -1,0 +1,9 @@
+.footer__column-link{/*v2 исправил класс по брифу*/
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.footer__link:hover{
+  color: #f2f2f2;
+  text-decoration: none;
+}
