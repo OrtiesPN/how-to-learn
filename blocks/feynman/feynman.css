@@ -1,0 +1,6 @@
+.feynman{
+  min-height: 890px;
+  background: no-repeat left bottom/ 867px 637px url(../../images/feynman.png) #f2f2f2;
+  position: relative;
+  /*указал минимальную высоту и сокраил запись свойств для фона через шорткат*/
+}

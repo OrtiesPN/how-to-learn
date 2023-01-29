@@ -1,0 +1,8 @@
+.footer__columns{
+  margin: auto;
+  width: 90%;
+  flex: 1; /* шорткат для того, чтобы растянуть контент по родителю*/
+  display: flex;
+  justify-content: space-between;
+  /*контент в футере позиционируется средствами флекс-контейнера*/
+}
