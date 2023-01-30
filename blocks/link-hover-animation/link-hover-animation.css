@@ -1,9 +1,9 @@
-.link_hover-animation{
+.link-hover-animation{
   opacity: 1;
   transition: opacity .4s ease;
   /*ПР2: анимация по наведению курсора добавлена через микс*/
 }
 
-.link_hover-animation:hover{
+.link-hover-animation:hover{
   opacity: .7;
 }
