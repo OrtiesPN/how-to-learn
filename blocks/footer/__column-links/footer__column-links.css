@@ -1,9 +1,8 @@
-.footer__column-links{/*для двух навигационных колонок использован один класс ссылок, т. к. их поведение идентично*/
+.footer__column-links{
   margin: 20px 0 18px 0;
-  padding: 0; /*сброшен унаследованный отступ*/
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   list-style: none;
-  /*параметры текста*/
 }
